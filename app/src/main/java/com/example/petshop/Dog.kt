@@ -1,0 +1,7 @@
+package com.example.petshop
+
+class Dog(name: String, age: Int): Pet(name, age) {
+    override fun speak(): String {
+        return "Bark"
+    }
+}
